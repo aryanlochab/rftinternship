@@ -19,7 +19,7 @@ with open("day6.csv","r") as file:
             sales_per_product[product] = sales
 
 """
-i am having trouble adding a new row
+i am having trouble adding a new column
 row[0].append('Total')
 for i in range(1, len(row)):
     row[i].append(total[i - 1])
