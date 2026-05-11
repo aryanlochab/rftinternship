@@ -1,8 +1,8 @@
 students = []
 with open("day5.csv", "r") as file:
     #read all lines
-    lines = file.readlines()
-
+    lines = file.readlines() 
+    
     #header
     headers = lines[0].strip().split(",")
 
