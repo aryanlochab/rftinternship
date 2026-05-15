@@ -15,6 +15,6 @@ print("\nFiltered Data:\n")
 print(filtered_data)
 
 # Save filtered data to new CSV file
-filtered_data.to_csv("day9_filtered_data.csv", index=False)
+filtered_data.to_csv("day9_dfiltered_data.csv", index=False)
 
 print("\nFiltered data saved to filtered_data.csv")
