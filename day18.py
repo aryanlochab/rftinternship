@@ -3,10 +3,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-# ----------------------------------------------------
-# 0. SETUP: Creating Sample Movie Dataset
-# ----------------------------------------------------
-# (Since an external dataset wasn't provided, we generate sample data)
+
 data = {
     "Movie Name": [
         "Inception",
@@ -45,9 +42,7 @@ print("--- original dataset ---")
 print(df)
 print("\n" + "=" * 50 + "\n")
 
-# ----------------------------------------------------
-# 1. PERFORM: Data Analysis tasks
-# ----------------------------------------------------
+
 
 # Task A: Highest Rated Movies (Sorted by Rating descending)
 highest_rated = df.sort_values(by="Rating", ascending=False)

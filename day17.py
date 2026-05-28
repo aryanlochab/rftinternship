@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 
 
-# Generating a mock dataset matching the project requirements
+
 np.random.seed(42)
 n_customers = 200
 
